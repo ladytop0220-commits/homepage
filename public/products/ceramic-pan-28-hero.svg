@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Émelle Ceramic Pan 28cm — Hero">
+  <defs>
+    <linearGradient id="bgh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4EDE0"/>
+      <stop offset="100%" stop-color="#E9DEC8"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.35" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="panRim2" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#C7BCA5"/>
+    </radialGradient>
+    <radialGradient id="panIn2" cx="0.5" cy="0.45" r="0.45">
+      <stop offset="0%" stop-color="#E9DCC4"/>
+      <stop offset="100%" stop-color="#B6A382"/>
+    </radialGradient>
+    <linearGradient id="hd2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B6A07F"/>
+      <stop offset="100%" stop-color="#7E6B52"/>
+    </linearGradient>
+    <filter id="sh">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="20"/>
+      <feOffset dx="0" dy="12"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1000" fill="url(#bgh)"/>
+  <rect width="1000" height="1000" fill="url(#spot)"/>
+
+  <!-- floor shadow -->
+  <ellipse cx="500" cy="720" rx="400" ry="30" fill="#000" opacity="0.10"/>
+
+  <!-- Pan, centered & angled -->
+  <g transform="translate(0,0)" filter="url(#sh)">
+    <!-- Handle -->
+    <path d="M 700 590 L 880 555 Q 905 555 905 580 L 905 640 Q 905 665 880 665 L 700 630 Z" fill="url(#hd2)"/>
+    <ellipse cx="885" cy="608" rx="8" ry="14" fill="#2B2926" opacity="0.4"/>
+
+    <!-- Outer rim -->
+    <ellipse cx="430" cy="600" rx="330" ry="85" fill="url(#panRim2)" stroke="#9C8E73" stroke-width="1.2"/>
+    <!-- Inner -->
+    <ellipse cx="430" cy="600" rx="298" ry="68" fill="url(#panIn2)"/>
+    <!-- Top highlight -->
+    <ellipse cx="430" cy="572" rx="250" ry="28" fill="#FFFFFF" opacity="0.2"/>
+  </g>
+
+  <!-- soft branding mark -->
+  <g opacity="0.18">
+    <line x1="450" y1="200" x2="510" y2="200" stroke="#A88B5C" stroke-width="1"/>
+    <text x="480" y="248" text-anchor="middle" font-family="Georgia, serif" font-size="50" fill="#2B2926" font-style="italic">É</text>
+  </g>
+
+  <text x="500" y="970" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="9" letter-spacing="3" fill="#2B2926" opacity="0.25">PLACEHOLDER · REPLACE WITH FINAL PHOTOGRAPHY</text>
+</svg>

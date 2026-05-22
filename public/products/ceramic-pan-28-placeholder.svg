@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Émelle Ceramic Pan 28cm — Placeholder">
+  <!-- Émelle 브랜드 톤 SVG 목업 (실제 사진 교체 전 placeholder) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4EDE0"/>
+      <stop offset="100%" stop-color="#EDE3D1"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F2E6"/>
+      <stop offset="100%" stop-color="#EAE0CB"/>
+    </linearGradient>
+    <linearGradient id="boxSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D9CDB3"/>
+      <stop offset="100%" stop-color="#C9BB9D"/>
+    </linearGradient>
+    <radialGradient id="panRim" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="60%" stop-color="#F2EBE0"/>
+      <stop offset="100%" stop-color="#D8CFBE"/>
+    </radialGradient>
+    <radialGradient id="panInner" cx="0.5" cy="0.45" r="0.45">
+      <stop offset="0%" stop-color="#E9DCC4"/>
+      <stop offset="100%" stop-color="#C9B79A"/>
+    </radialGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B6A07F"/>
+      <stop offset="100%" stop-color="#8E7A5E"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="6"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bg)"/>
+
+  <!-- Soft floor shadow -->
+  <ellipse cx="400" cy="880" rx="320" ry="22" fill="#000" opacity="0.08"/>
+
+  <!-- BOX (Émelle packaging mockup) -->
+  <g filter="url(#soft)">
+    <!-- box front -->
+    <path d="M 180 280 L 580 280 L 580 700 L 180 700 Z" fill="url(#box)"/>
+    <!-- box side -->
+    <path d="M 580 280 L 660 240 L 660 660 L 580 700 Z" fill="url(#boxSide)"/>
+    <!-- box top -->
+    <path d="M 180 280 L 260 240 L 660 240 L 580 280 Z" fill="#E0D5BC"/>
+
+    <!-- Brand wordmark on box -->
+    <text x="220" y="380" font-family="Georgia, 'Noto Serif KR', serif" font-size="56" fill="#2B2926" font-style="italic">Émelle</text>
+
+    <!-- Laiton divider -->
+    <line x1="220" y1="408" x2="280" y2="408" stroke="#A88B5C" stroke-width="1"/>
+
+    <!-- Subtitle -->
+    <text x="220" y="438" font-family="ui-sans-serif, sans-serif" font-size="11" letter-spacing="3" fill="#2B2926" opacity="0.7">ATELIER · BY GIPEEL INTERNATIONAL</text>
+
+    <!-- Product line label -->
+    <text x="220" y="500" font-family="Georgia, serif" font-size="22" fill="#4A5D3F" font-style="italic">Cuisine</text>
+
+    <!-- Product name -->
+    <text x="220" y="540" font-family="ui-sans-serif, sans-serif" font-size="14" letter-spacing="2" fill="#2B2926">CERAMIC PAN · 28CM</text>
+
+    <!-- Tagline -->
+    <text x="220" y="630" font-family="Georgia, 'Noto Serif KR', serif" font-size="13" fill="#2B2926" opacity="0.6" font-style="italic">Surfaces that hold</text>
+    <text x="220" y="650" font-family="Georgia, 'Noto Serif KR', serif" font-size="13" fill="#2B2926" opacity="0.6" font-style="italic">the heat of memory.</text>
+
+    <!-- Spec chips at bottom of box -->
+    <g font-family="ui-sans-serif, sans-serif" font-size="9" letter-spacing="1" fill="#2B2926" opacity="0.55">
+      <text x="220" y="685">IH · CERAMIC · ALUMINUM · BAKELITE</text>
+    </g>
+  </g>
+
+  <!-- PAN in front -->
+  <g transform="translate(0, 60)">
+    <!-- handle (pointing right) -->
+    <path d="M 600 760 L 720 745 Q 740 745 740 765 L 740 800 Q 740 820 720 820 L 600 805 Z" fill="url(#handle)" stroke="#5C4A33" stroke-width="0.5" opacity="0.95"/>
+    <ellipse cx="710" cy="782" rx="6" ry="10" fill="#2B2926" opacity="0.35"/>
+
+    <!-- pan outer rim -->
+    <ellipse cx="400" cy="780" rx="240" ry="60" fill="url(#panRim)" stroke="#B5A789" stroke-width="1"/>
+    <!-- pan cavity (interior) -->
+    <ellipse cx="400" cy="780" rx="215" ry="48" fill="url(#panInner)"/>
+    <!-- subtle highlight -->
+    <ellipse cx="400" cy="765" rx="180" ry="20" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+
+  <!-- watermark -->
+  <text x="400" y="970" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="9" letter-spacing="3" fill="#2B2926" opacity="0.25">PLACEHOLDER · REPLACE WITH FINAL PHOTO</text>
+</svg>
