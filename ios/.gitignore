@@ -1,0 +1,11 @@
+# XcodeGen 이 생성하는 프로젝트 파일 (project.yml 에서 재생성)
+Annyeong.xcodeproj/
+
+# Xcode / build
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+.DS_Store

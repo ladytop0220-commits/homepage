@@ -1,0 +1,34 @@
+# XcodeGen 설정 — `xcodegen generate` 를 실행하면 Annyeong.xcodeproj 가 만들어집니다.
+name: Annyeong
+options:
+  bundleIdPrefix: kr.annyeong
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+targets:
+  Annyeong:
+    type: application
+    platform: iOS
+    sources:
+      - Annyeong
+    info:
+      path: Annyeong/Info.plist
+      properties:
+        CFBundleDisplayName: "안녕"
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSContactsUsageDescription: "친구·가족에게 전화를 걸고 안부 문자를 보내기 위해 연락처를 사용합니다. 연락처는 이 기기 안에서만 사용되며 외부로 전송되지 않습니다."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: kr.annyeong.app
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
