@@ -35,19 +35,27 @@
 
 이 클라우드에는 macOS·Xcode가 없어 빌드되지 않습니다. **Mac에서** 여세요.
 
-### 방법 A — XcodeGen (권장)
+### 방법 A — 프로젝트 파일 더블클릭 (가장 쉬움)
+저장소에 완성된 `Annyeong.xcodeproj` 가 들어 있습니다. 별도 도구가 필요 없어요.
 ```bash
-brew install xcodegen        # 처음 한 번
 cd ios
-xcodegen generate            # Annyeong.xcodeproj 생성
-open Annyeong.xcodeproj
+open Annyeong.xcodeproj      # 또는 Finder 에서 더블클릭
 ```
 그다음 Xcode에서:
-1. 상단에서 본인 아이폰(또는 시뮬레이터) 선택
-2. **Signing & Capabilities > Team** 에 본인 Apple ID 선택 (무료 계정도 가능)
-3. ▶︎ 실행 — 실제 아이폰에 설치됩니다. (무료 계정은 7일마다 재설치 필요)
+1. 상단에서 본인 아이폰(USB 연결) 또는 시뮬레이터 선택
+2. 왼쪽 **Annyeong** 프로젝트 클릭 > **Signing & Capabilities > Team** 에 본인 Apple ID 선택 (무료 계정도 가능)
+3. ▶︎ (Run) 실행 — 실제 아이폰에 설치됩니다. (무료 계정은 7일마다 재설치 필요)
+4. 아이폰에서 **설정 > 일반 > VPN 및 기기 관리** 에서 본인 개발자 앱을 '신뢰'로 설정하면 실행됩니다.
 
-### 방법 B — Xcode에서 직접
+### 방법 B — XcodeGen 으로 재생성 (선택)
+프로젝트를 새로 생성하고 싶으면:
+```bash
+cd ios
+xcodegen generate           # project.yml 로부터 Annyeong.xcodeproj 재생성
+open Annyeong.xcodeproj
+```
+
+### 방법 C — Xcode에서 직접
 1. Xcode > New Project > iOS App (SwiftUI, 이름 Annyeong, Bundle ID `kr.annyeong.app`)
 2. `ios/Annyeong/` 안의 `.swift` 파일과 `Assets.xcassets` 를 프로젝트로 드래그해 추가
 3. Target Info에 **Privacy - Contacts Usage Description** 항목 추가 (문구는 project.yml 참고)
