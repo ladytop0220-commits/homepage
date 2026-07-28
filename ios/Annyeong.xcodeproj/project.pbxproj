@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0000000000000000000001 /* AnnyeongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000001 /* AnnyeongApp.swift */; };
+		2B0000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000002 /* AppModel.swift */; };
+		2B0000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000003 /* Models.swift */; };
+		2B0000000000000000000004 /* MessageTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000004 /* MessageTemplates.swift */; };
+		2B0000000000000000000005 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000005 /* ContactsService.swift */; };
+		2B0000000000000000000006 /* CommsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000006 /* CommsService.swift */; };
+		2B0000000000000000000007 /* NotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000007 /* NotificationsService.swift */; };
+		2B0000000000000000000008 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000008 /* Components.swift */; };
+		2B0000000000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000009 /* HomeView.swift */; };
+		2B000000000000000000000A /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000000000000000000000A /* CallView.swift */; };
+		2B000000000000000000000B /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000000000000000000000B /* MessageView.swift */; };
+		2B000000000000000000000C /* CloseFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000000000000000000000C /* CloseFriendsView.swift */; };
+		2B000000000000000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000000000000000000000D /* SettingsView.swift */; };
+		2B000000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000000000000000000000E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0000000000000000000001 /* AnnyeongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnyeongApp.swift; sourceTree = "<group>"; };
+		1A0000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1A0000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1A0000000000000000000004 /* MessageTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplates.swift; sourceTree = "<group>"; };
+		1A0000000000000000000005 /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
+		1A0000000000000000000006 /* CommsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommsService.swift; sourceTree = "<group>"; };
+		1A0000000000000000000007 /* NotificationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsService.swift; sourceTree = "<group>"; };
+		1A0000000000000000000008 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		1A0000000000000000000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A000000000000000000000A /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		1A000000000000000000000B /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		1A000000000000000000000C /* CloseFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseFriendsView.swift; sourceTree = "<group>"; };
+		1A000000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1A000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A000000000000000000000F /* Annyeong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Annyeong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				3C0000000000000000000002 /* Annyeong */,
+				3C0000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0000000000000000000002 /* Annyeong */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000001 /* AnnyeongApp.swift */,
+				1A0000000000000000000002 /* AppModel.swift */,
+				1A0000000000000000000003 /* Models.swift */,
+				1A0000000000000000000004 /* MessageTemplates.swift */,
+				1A0000000000000000000005 /* ContactsService.swift */,
+				1A0000000000000000000006 /* CommsService.swift */,
+				1A0000000000000000000007 /* NotificationsService.swift */,
+				3C0000000000000000000003 /* Views */,
+				1A000000000000000000000E /* Assets.xcassets */,
+			);
+			path = Annyeong;
+			sourceTree = "<group>";
+		};
+		3C0000000000000000000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000008 /* Components.swift */,
+				1A0000000000000000000009 /* HomeView.swift */,
+				1A000000000000000000000A /* CallView.swift */,
+				1A000000000000000000000B /* MessageView.swift */,
+				1A000000000000000000000C /* CloseFriendsView.swift */,
+				1A000000000000000000000D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C0000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A000000000000000000000F /* Annyeong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0000000000000000000001 /* Annyeong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0000000000000000000002 /* Build configuration list for PBXNativeTarget "Annyeong" */;
+			buildPhases = (
+				4D0000000000000000000001 /* Sources */,
+				4D0000000000000000000002 /* Frameworks */,
+				4D0000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Annyeong;
+			productName = Annyeong;
+			productReference = 1A000000000000000000000F /* Annyeong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E0000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5E0000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7A0000000000000000000001 /* Build configuration list for PBXProject "Annyeong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0000000000000000000001;
+			productRefGroup = 3C0000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0000000000000000000001 /* Annyeong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B000000000000000000000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0000000000000000000001 /* AnnyeongApp.swift in Sources */,
+				2B0000000000000000000002 /* AppModel.swift in Sources */,
+				2B0000000000000000000003 /* Models.swift in Sources */,
+				2B0000000000000000000004 /* MessageTemplates.swift in Sources */,
+				2B0000000000000000000005 /* ContactsService.swift in Sources */,
+				2B0000000000000000000006 /* CommsService.swift in Sources */,
+				2B0000000000000000000007 /* NotificationsService.swift in Sources */,
+				2B0000000000000000000008 /* Components.swift in Sources */,
+				2B0000000000000000000009 /* HomeView.swift in Sources */,
+				2B000000000000000000000A /* CallView.swift in Sources */,
+				2B000000000000000000000B /* MessageView.swift in Sources */,
+				2B000000000000000000000C /* CloseFriendsView.swift in Sources */,
+				2B000000000000000000000D /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "안녕";
+				INFOPLIST_KEY_NSContactsUsageDescription = "친구·가족에게 전화를 걸고 안부 문자를 보내기 위해 연락처를 사용합니다. 연락처는 이 기기 안에서만 사용되며 외부로 전송되지 않습니다.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.annyeong.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "안녕";
+				INFOPLIST_KEY_NSContactsUsageDescription = "친구·가족에게 전화를 걸고 안부 문자를 보내기 위해 연락처를 사용합니다. 연락처는 이 기기 안에서만 사용되며 외부로 전송되지 않습니다.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.annyeong.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0000000000000000000001 /* Build configuration list for PBXProject "Annyeong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0000000000000000000001 /* Debug */,
+				6F0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0000000000000000000002 /* Build configuration list for PBXNativeTarget "Annyeong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0000000000000000000003 /* Debug */,
+				6F0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E0000000000000000000002 /* Project object */;
+}

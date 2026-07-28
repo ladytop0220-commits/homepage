@@ -1,0 +1,11 @@
+# Xcode 사용자별 데이터만 제외 (프로젝트 파일 자체는 커밋)
+Annyeong.xcodeproj/xcuserdata/
+Annyeong.xcodeproj/project.xcworkspace/xcuserdata/
+Annyeong.xcodeproj/project.xcworkspace/xcshareddata/
+xcuserdata/
+
+# 빌드 산출물
+build/
+DerivedData/
+*.xcuserstate
+.DS_Store
